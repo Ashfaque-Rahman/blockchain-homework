@@ -40,4 +40,15 @@ After that we will run node2 for mining using different port and using first nod
 
 ![alt=""](https://github.com/Ashfaque-Rahman/blockchain-homework/blob/main/POA%20Development%20Chain/Screenshots/5.run_node2.JPG)
 
-5. Using the MyCrypto GUI wallet to connect to the node with the exposed RPC port.We used a custom network, and include the chain ID, and use ETH as the currency.
+5. Using the MyCrypto GUI wallet to connect to the node with the exposed RPC port.We used a custom network, and include the chain ID, and use ETH as the currency. In MyCrypto Using KeyStore to open wallet. Check node1 folder for KeyStore. You will need to use a custom network, and include the chain ID, and use ETH as the currency. 
+
+![alt=""](https://github.com/Ashfaque-Rahman/blockchain-homework/blob/main/POA%20Development%20Chain/Screenshots/6.connect_myrypto_node1.JPG)
+
+As mining going on in both node, we should be able to some Ether in balance
+![alt=""](https://github.com/Ashfaque-Rahman/blockchain-homework/blob/main/POA%20Development%20Chain/Screenshots/7.balance_check.png)
+
+Now we will try to send some ether to another wallet to verify if our blockchain is working
+![alt=""](https://github.com/Ashfaque-Rahman/blockchain-homework/blob/main/POA%20Development%20Chain/Screenshots/8.trx_1.png)
+
+Finally we can see that our transaction has been sent successfully proving our POA network works
+![alt=""](https://github.com/Ashfaque-Rahman/blockchain-homework/blob/main/POA%20Development%20Chain/Screenshots/9.success.png)
